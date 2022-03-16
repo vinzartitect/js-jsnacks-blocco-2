@@ -23,7 +23,8 @@ for ( let i = 0; i < 7; i++) {
 
     console.log(invitatoFesta);
     
-    listaFalsa.includes(invitatoFesta);
+    listaFalsa.push(invitatoFesta);
+    // listaFalsa[i] = invitatoFesta;
 
     console.log(listaFalsa);
 
